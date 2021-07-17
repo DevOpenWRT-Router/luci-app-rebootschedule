@@ -5,7 +5,7 @@ function index()
 	end
 	
 	entry({"admin", "control"}, firstchild(), "Control", 44).dependent = false
-	entry({"admin", "control", "rebootschedule"}, cbi("rebootschedule"), "定时设置", 20).dependent = true
+	entry({"admin", "control", "rebootschedule"}, cbi("rebootschedule"), "Timing setting", 20).dependent = true
 end
 
 
